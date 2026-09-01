@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "package_type": "domain-knowledge-base",
+  "name": "knowledge",
+  "version": "2026.09.01",
+  "canonical_layer": "okf",
+  "okf_version": "0.2",
+  "dkp_alignment": "inspired-by-draft",
+  "domains": [
+    {
+      "id": "ga4",
+      "okf": "okf/ga4",
+      "evidence": "evidence/ga4"
+    },
+    {
+      "id": "stackoverflow",
+      "okf": "okf/stackoverflow",
+      "evidence": "evidence/stackoverflow"
+    }
+  ],
+  "quality_gates": {
+    "okf_valid": true,
+    "source_evidence_recorded": true,
+    "human_reviewed": false
+  },
+  "notes": "This repository contains knowledge artifacts only. Source code, raw corpora, Domain Packages, caches, and derived indexes are intentionally excluded."
+}
