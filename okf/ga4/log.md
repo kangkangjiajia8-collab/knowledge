@@ -2,4 +2,6 @@
 
 ## 2026-09-01
 
-* **Compilation**: Imported 11 concepts with domain profile `ga4-bigquery-analytics/1.0.0` and generated 6 topic pages.
+* **构建**：领域 `ga4/0.1.0`，18 个 concept，6 个索引页，清理 0 个旧文档。
+* **模型**：release-validation
+* **语料**：树哈希 `（未提供）`

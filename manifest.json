@@ -1,11 +1,8 @@
 {
   "schema_version": 1,
   "package_type": "domain-knowledge-base",
-  "name": "knowledge",
-  "version": "2026.09.01",
-  "canonical_layer": "okf",
-  "okf_version": "0.2",
-  "dkp_alignment": "inspired-by-draft",
+  "name": "kb",
+  "domain": "ga4",
   "domains": [
     {
       "id": "ga4",
@@ -18,10 +15,24 @@
       "evidence": "evidence/stackoverflow"
     }
   ],
+  "version": "v2026.09.01",
+  "canonical_layer": "okf",
+  "okf_version": "0.2",
+  "dkp_alignment": "inspired-by-draft",
+  "contents": {
+    "okf": "okf/ga4",
+    "evidence": "evidence/ga4"
+  },
   "quality_gates": {
     "okf_valid": true,
+    "domain_valid": true,
     "source_evidence_recorded": true,
     "human_reviewed": false
   },
-  "notes": "This repository contains knowledge artifacts only. Source code, raw corpora, Domain Packages, caches, and derived indexes are intentionally excluded."
+  "build": {
+    "at": "2026-09-01T00:00:00Z",
+    "model": "release-validation",
+    "corpus_tree_sha256": "",
+    "domain_package": "ga4/0.1.0"
+  }
 }
