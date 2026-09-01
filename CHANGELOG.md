@@ -18,3 +18,9 @@ Agent 读取约定：
 - 涉及领域：`ga4`
 - Concept 数量：18
 - 质量门：okf_valid=`true`；domain_valid=`true`；human_reviewed=`false`
+
+## 2026-09-01 · `v2026.09.01.3`
+
+- 涉及领域：`ga4`
+- Concept 数量：18
+- 质量门：okf_valid=`true`；domain_valid=`true`；human_reviewed=`false`
